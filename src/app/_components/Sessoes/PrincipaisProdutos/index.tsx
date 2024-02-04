@@ -10,7 +10,7 @@ export interface Produto {
 }
 
 const getProdutos = async (): Promise<Produto[]> => {
-  const res = await fetch('http://localhost:3001/produtos', {
+  const res = await fetch('http://localhost:3000/api/products', {
     method: 'GET',
     cache: 'force-cache', // similar to getStaticProps
   });
