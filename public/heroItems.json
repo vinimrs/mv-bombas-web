@@ -1,0 +1,85 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "Equipamentos de jardinagem",
+      "description": "Ferramentas para controlar o crescimento de gramíneas: são aparadores de grama, cortadores de grama, roçadeiras e sopradores.",
+      "image": "/hero/garden.png",
+      "equipments": [
+        {
+          "name": "Roçadeira",
+          "image": "/products/gardening/brushcutter-still.png"
+        },
+        {
+          "name": "Aparador de grama",
+          "image": "/products/gardening/grass-cutter-trapp.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Motobombas",
+      "description": "São máquinas que recebem trabalho mecânico, fornecido por outro equipamento, normalmente um motor elétrico ou a combustão interna e transfere para o fluido realizar a tarefa.",
+      "image": "/hero/irrigation.png",
+      "equipments": [
+        {
+          "name": "Bomba Schineider",
+          "image": "/products/pumps/small-pump-schineider.png"
+        },
+        {
+          "name": "Motobomba Buffalo",
+          "image": "/products/motor-pumps/motor-pump-buffalo.png"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Motobombas submersas e submersíveis",
+      "description": "São máquinas que podem trabalhar para bombeamento de fluidos subterrâneos, poços ou estações de tratamento de esgoto.",
+      "image": "/hero/underwater.png",
+      "equipments": [
+        {
+          "name": "Bomba submersível Schineider",
+          "image": "/products/motor-pumps/submersible-pump-schineider.png"
+        },
+        {
+          "name": "Motobomba submersível Schineider",
+          "image": "/products/motor-pumps/submersible-motor-pump-schineider.png"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Bombas de combate a incêndio",
+      "description": "Máquinas que fornecem a pressão necessária para bombear a água com a vazão elevada até os dispositivos do sistema de combate a incêndio.",
+      "image": "/hero/fire.png",
+      "equipments": [
+        {
+          "name": "Bomba de incêndio Famac",
+          "image": "/products/motor-pumps/firefighting-motor-pump-famac.png"
+        },
+        {
+          "name": "Motobomba de incêndio",
+          "image": "/products/motor-pumps/firefighting-motor-pump.png"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Motores elétricos",
+      "description": "Equipamentos que transformam energia elétrica em energia mecânica, movimentando máquinas e transmitindo rotação. Usados em qualquer situação que necessite de energia mecânica.",
+      "image": "/hero/industry.png",
+      "equipments": [
+        {
+          "name": "Motor monofásico Weg",
+          "image": "/products/motors/web-single-phase-motor.png"
+        },
+        {
+          "name": "Motor trifásico Weg",
+          "image": "/products/motors/weg-three-phase-motor.png"
+        }
+      ]
+    }
+  ]
+}
+

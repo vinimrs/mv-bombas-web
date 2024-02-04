@@ -1,0 +1,10 @@
+dist
+.github
+
+**/.git
+**/.svn
+**/.hg
+**/node_modules
+
+**/*.yml
+**/*.yaml
