@@ -1,7 +1,5 @@
 import { readFile } from 'fs/promises';
 
-export const dynamic = 'force-dynamic'; // defaults to auto
-
 export async function GET() {
   try {
     // Leia os dados do arquivo produtos.json
