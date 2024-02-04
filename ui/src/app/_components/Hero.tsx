@@ -6,6 +6,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { ResponsiveType } from 'react-multi-carousel/lib/types';
 
+// Responsive carousel settings
 const responsive: ResponsiveType = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
