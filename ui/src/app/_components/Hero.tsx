@@ -51,7 +51,7 @@ const Hero: React.FC = () => {
       autoPlay={true}
       autoPlaySpeed={7000}
       keyBoardControl={true}
-      pauseOnHover={true}
+      pauseOnHover={false}
       customTransition="all .5s ease-in-out"
       transitionDuration={500}
       slidesToSlide={1}
