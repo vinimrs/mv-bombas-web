@@ -18,7 +18,7 @@
     "react-leaflet": "^4.2.1",
     "react-multi-carousel": "^2.8.4",
     "react-swipeable": "^7.0.1",
-    "sharp": "^0.33.2",
+    "sharp": "^0.33.1",
     "usehooks-ts": "^2.9.2"
   },
   "devDependencies": {
