@@ -1,0 +1,14 @@
+- hosts: mvbombas_logic
+  tasks:
+    - name: Stop the docker compose
+      command: docker compose down
+      args:
+        chdir: /usr/src/app
+    - name: Pull the latest changes
+      command: docker pull vinimrs/mv-bombas-web-logic:latest
+      args:
+        chdir: /usr/src/app
+    - name: Start the docker compose
+      command: docker compose up -d
+      args:
+        chdir: /usr/src/app
