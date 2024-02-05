@@ -14,8 +14,12 @@ app.get("/", (req, res) => {
 // Rota para obter a lista de produtos
 app.get("/products", async (req, res) => {
   try {
+    const pathToProducts =
+      process.env.NODE_ENV === "production"
+        ? "./dist/products.json"
+        : "./src/products.json";
     // Leia os dados do arquivo produtos.json
-    const produtosData = await fs.readFile("./src/products.json", "utf-8");
+    const produtosData = await fs.readFile(pathToProducts, "utf-8");
     const produtos = JSON.parse(produtosData);
 
     // Envie a lista de produtos como resposta
